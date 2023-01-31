@@ -1,0 +1,36 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper > .heading {
+    font-size: larger;
+    flex: 1;
+}
+
+.wrapper > .structure {
+    flex: 2;
+}
+
+.wrapper > .structure span {
+    display: inline-block;
+    padding: 20px;
+    border: thin solid red;
+}
+
+.wrapper > .operations {
+    flex: 2;
+}
+
+.wrapper > .operations button{
+    margin: 8px;
+    cursor: pointer;
+    height: 40px;
+    background-color: dodgerblue;
+    color:#ffffff;
+    border-radius: 3px;
+    min-width: 100px;
+    border: none;
+}
