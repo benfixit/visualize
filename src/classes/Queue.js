@@ -27,6 +27,10 @@ class Queue {
         return this.#dataStore.length === 0;
     }
 
+    clear(){
+        this.#dataStore = [];
+    }
+
     getData(){
         return this.#dataStore;
     }

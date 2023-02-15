@@ -1,3 +1,24 @@
-.wrapper {
-    height: 100%;
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border: thin solid red;
+}
+
+/* nav ul#links {
+    border: thin solid red;
+} */
+
+nav ul#links li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav ul#links li a{
+    text-decoration: none;
+}
+
+nav ul#settings .theme-switcher {
+    cursor: pointer;
 }

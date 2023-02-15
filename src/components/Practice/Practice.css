@@ -1,14 +1,71 @@
-.wrapper {
+main#wrapper {
+    border: thin solid red;
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    padding: 20px 40px;
 }
 
-.wrapper > a {
+main#wrapper section.utils{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+main#wrapper section.utils div.search{
+    border: thin solid gray;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+main#wrapper section.utils div.search .searchIcon{
+    margin-right: 10px;
+}
+
+main#wrapper section.utils div.search input{
+    height: 100%;
+    flex: 1;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+main#wrapper section.utils div.controls{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* main#wrapper > a {
     display: block;
     flex-basis: 30%;
     height: 200px;
     border: thin solid red;
+} */
+
+main#wrapper section.questions{
+    width: 100%;
+}
+
+main#wrapper section.questions table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+main#wrapper section.questions table th
+{
+    text-align: left;
+}
+
+main#wrapper section.questions table td, 
+main#wrapper section.questions table th
+{
+    border: thin solid #dddddd;
+    padding: 10px;
 }
